@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/GreyampLogo.png'
 import {Navbar} from "react-bootstrap";
+import './Navigation.css'
 
 export default function Navigation(props) {
   return (
@@ -15,7 +16,7 @@ export default function Navigation(props) {
                 alt={"Greyamp logo"}
             />{' '}
             <Navbar.Text style={{fontColor:"white"}}>
-              Greyamp Consulting : Notion Dashboard</Navbar.Text>
+              <b>Wiki: Greyamp Consulting</b></Navbar.Text>
           </Navbar.Brand>
         </Navbar>
       </>
