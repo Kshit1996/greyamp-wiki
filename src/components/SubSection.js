@@ -7,19 +7,19 @@ import {CaretRightFill} from "react-bootstrap-icons";
 export default function SubSection(props) {
   const [activeClass, setActiveClass] = useState("caret-down");
 
+
   function createListGroup(subtopics) {
     return (
         <ListGroup variant="flush">
           {subtopics.map(
               subtopic => <ListGroup.Item
-                  key={subtopic}>{subtopic}</ListGroup.Item>
+                  key={subtopic[0]} onClick={()=>props.onClick(props.chapter,subtopic[0])}>{subtopic[0]}</ListGroup.Item>
           )}
         </ListGroup>
     )
   }
 
   const changeActiveClass = () => {
-    console.log(activeClass)
     if (activeClass === "caret-down") {
       setActiveClass("caret-down-click")
     } else {
