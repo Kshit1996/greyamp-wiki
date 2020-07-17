@@ -28,12 +28,12 @@ export default function SubSection(props) {
   }
 
   return (
-      <Accordion>
+      <Accordion className={"chapter"}>
         <Card>
           <Accordion.Toggle onClick={changeActiveClass} as={Card.Header}
                             variant="link"
                             eventKey={props.chapter}>
-            <CaretRightFill className={activeClass}/> &nbsp; {props.chapter}
+            <CaretRightFill className={activeClass}/><b> &nbsp; {props.chapter}</b>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey={props.chapter}>
             <Card.Body>{createListGroup(props.subtopics)}</Card.Body>

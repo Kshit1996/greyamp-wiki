@@ -1,16 +1,3 @@
-/*.caret-down {*/
-/*  animation-name: toggle-up;*/
-/*  animation-duration: 0.5s;*/
-/*  animation-fill-mode: forwards;*/
-/*  transition: all 0.75s 0.25s;*/
-/*}*/
-/*.caret-down-click {*/
-/*  animation-name: toggle-down;*/
-/*  animation-duration: 0.25s;*/
-/*  animation-fill-mode: forwards;*/
-/*}*/
-
-
 .caret-down{
   transform: rotate(0deg);
   transition: transform 0.25s linear;
@@ -18,17 +5,18 @@
 
 .caret-down-click{
   transform: rotate(90deg);
-  transition: transform 0.25s wlinear;
+  transition: transform 0.25s linear;
 }
 
-/*!*animations*!*/
-/*@keyframes toggle-up {*/
-/*  100% {*/
-/*    transform: rotate(-45deg);*/
-/*  }*/
-/*}*/
-/*@keyframes toggle-down {*/
-/*  100% {*/
-/*    transform: rotate(90deg);*/
-/*  }*/
-/*}*/
+.card{
+  background-color: #282c34;
+  border-radius: 0px;
+}
+
+.card-header{
+  color: white;
+}
+
+.card-body{
+  padding: 0px;
+}

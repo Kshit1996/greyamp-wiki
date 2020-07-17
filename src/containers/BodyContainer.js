@@ -7,10 +7,10 @@ import {Col, Row} from "react-bootstrap";
 export default function BodyContainer(props) {
   return (
       <Row>
-        <Col md={3}>
+        <Col md={2}>
           <ListOfContents/>
         </Col>
-        <Col md={6}>
+        <Col md={10}>
           <Content/>
         </Col>
       </Row>

@@ -1,4 +1,19 @@
-.col-md-3{
+.col-md-2 {
   max-height: 100vh;
   overflow: scroll;
+  background-color: aliceblue;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.col-md-10 {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+
+.row {
+  min-height: 90vh;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
 }

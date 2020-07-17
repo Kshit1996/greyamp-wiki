@@ -6,7 +6,7 @@ import './Navigation.css'
 export default function Navigation(props) {
   return (
       <>
-        <Navbar fixed={"top"} bg="dark" variant={"dark"}>
+        <Navbar bg="dark" variant={"dark"}>
           <Navbar.Brand href="#home">
             <img
                 src={logo}
@@ -16,7 +16,7 @@ export default function Navigation(props) {
                 alt={"Greyamp logo"}
             />{' '}
             <Navbar.Text style={{fontColor:"white"}}>
-              <b>Wiki: Greyamp Consulting</b></Navbar.Text>
+              <b> &nbsp; Wiki: Greyamp Consulting</b></Navbar.Text>
           </Navbar.Brand>
         </Navbar>
       </>
