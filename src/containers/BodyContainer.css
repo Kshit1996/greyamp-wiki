@@ -1,7 +1,7 @@
 .col-md-2 {
   max-height: 100vh;
   overflow: scroll;
-  background-color: aliceblue;
+  background-color: #282c34;
   padding-left: 0px !important;
   padding-right: 0px !important;
 }

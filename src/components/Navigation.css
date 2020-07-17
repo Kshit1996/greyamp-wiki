@@ -1,5 +1,5 @@
-.navbar.navbar-expand.navbar-dark.bg-dark.fixed-top{
-  padding: 0px 0px 0px 0px;
+.navbar.navbar-expand.navbar-dark.bg-dark{
+  padding: 0 0 0 0!important;
   background-color: #282c34!important;
 }
 
