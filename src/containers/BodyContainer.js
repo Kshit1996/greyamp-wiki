@@ -49,6 +49,13 @@ export default function BodyContainer(props) {
     ["Recognition", ""]
   ]
 
+  const greyampDigitalOffering = [
+  ]
+
+  const aboutGreyamp= [
+
+  ]
+
   const onClick=(chapter, subtopic)=>{
     let link = ""
     if(chapter === "Organisation & Governance"){
@@ -77,6 +84,8 @@ export default function BodyContainer(props) {
                           processAndTechnology={processAndTechnology}
                           peopleAndCompetencies={peopleAndCompetencies}
                           cultureAndMindset={cultureAndMindset}
+                          greyampDigitalOffering={greyampDigitalOffering}
+                          aboutGreyamp={aboutGreyamp}
                           onClick={onClick}
           />
         </Col>
