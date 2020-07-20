@@ -7,13 +7,15 @@ import {CaretRightFill} from "react-bootstrap-icons";
 export default function SubSection(props) {
   const [activeClass, setActiveClass] = useState("caret-down");
 
-
   function createListGroup(subtopics) {
     return (
         <ListGroup variant="flush">
           {subtopics.map(
               subtopic => <ListGroup.Item
-                  key={subtopic[0]} onClick={()=>props.onClick(props.chapter,subtopic[0])}>{subtopic[0]}</ListGroup.Item>
+                  key={subtopic[0]}
+                  onClick={() => props.onClick(props.chapter, subtopic[0])}><a
+                  href={subtopic[1]}
+                  target="_blank">{subtopic[0]}</a></ListGroup.Item>
           )}
         </ListGroup>
     )
@@ -33,7 +35,8 @@ export default function SubSection(props) {
           <Accordion.Toggle onClick={changeActiveClass} as={Card.Header}
                             variant="link"
                             eventKey={props.chapter}>
-            <CaretRightFill className={activeClass}/><b> &nbsp; {props.chapter}</b>
+            <CaretRightFill
+                className={activeClass}/><b> &nbsp; {props.chapter}</b>
           </Accordion.Toggle>
           <Accordion.Collapse eventKey={props.chapter}>
             <Card.Body>{createListGroup(props.subtopics)}</Card.Body>
