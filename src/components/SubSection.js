@@ -13,9 +13,9 @@ export default function SubSection(props) {
           {subtopics.map(
               subtopic => <ListGroup.Item
                   key={subtopic[0]}
-                  onClick={() => props.onClick(props.chapter, subtopic[0])}><a
-                  href={subtopic[1]}
-                  target="_blank" rel={"noopener noreferrer"}>{subtopic[0]}</a></ListGroup.Item>
+                  onClick={() => props.onClick(props.chapter, subtopic[0])}>
+                {subtopic[0]}
+              </ListGroup.Item>
           )}
         </ListGroup>
     )

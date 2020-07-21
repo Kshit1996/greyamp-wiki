@@ -18,7 +18,6 @@ class App extends React.Component {
     this.setState({
       isSignedIn: true
     })
-    console.log(this.state.isSignedIn);
   }
 
   getContent() {

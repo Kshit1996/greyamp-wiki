@@ -15,8 +15,12 @@
 
 .card-header{
   color: white;
+  cursor: pointer;
 }
 
 .card-body{
   padding: 0px;
+  cursor: pointer;
 }
+
+

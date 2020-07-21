@@ -1,6 +1,6 @@
 import React from 'react';
 import './Login.css';
-import {Button, Col, Row} from "react-bootstrap";
+import {Col, Row} from "react-bootstrap";
 import logo from '../assets/GreyampLogo.png'
 
 export default class Login extends React.Component {
@@ -18,12 +18,11 @@ export default class Login extends React.Component {
   }
 
   initializeGoogleSignIn() {
-    window.gapi.load('auth2', () => {
+    window.gapi.load('client:auth2', () => {
       // eslint-disable-next-line no-undef
       this.auth2 = gapi.auth2.init({
         client_id: '600276182087-pr5eu2cp57t6k2ag60g7cgld0ajkkt7t.apps.googleusercontent.com',
       })
-      console.log('API inited')
 
       window.gapi.load('signin2', () => {
         const params = {
@@ -33,7 +32,9 @@ export default class Login extends React.Component {
         }
         window.gapi.signin2.render('loginButton', params)
       })
+
     })
+
   }
 
   componentDidMount() {
@@ -54,3 +55,4 @@ export default class Login extends React.Component {
     )
   }
 }
+

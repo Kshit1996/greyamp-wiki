@@ -1,5 +1,12 @@
 h1{
   color: darkgrey;
   text-align: center;
-  margin: 340px 0px 0px 0px;
 }
+
+sk-spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
