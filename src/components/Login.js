@@ -28,7 +28,7 @@ export default class Login extends React.Component {
       window.gapi.load('signin2', () => {
         const params = {
           onsuccess: () => {
-            console.log('User has finished signing in')
+            this.props.onSuccess()
           }
         }
         window.gapi.signin2.render('loginButton', params)

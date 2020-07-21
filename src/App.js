@@ -7,11 +7,29 @@ import BodyContainer from "./containers/BodyContainer"
 import Login from "./components/Login"
 
 class App extends React.Component {
-  constructor(props){
+  constructor(props) {
     super(props)
-    this.state={
+    this.state = {
       isSignedIn: false
     }
+  }
+
+  onSuccess = () => {
+    this.setState({
+      isSignedIn: true
+    })
+    console.log(this.state.isSignedIn);
+  }
+
+  getContent() {
+    if (this.state.isSignedIn) {
+      return <BodyContainer/>
+    } else {
+      return (
+          <Login onSuccess={this.onSuccess}/>
+      )
+    }
+
   }
 
   render() {
@@ -19,8 +37,7 @@ class App extends React.Component {
         <>
           <Container fluid>
             <Navigation/>
-            {/*<BodyContainer />*/}
-            <Login/>
+            {this.getContent()}
           </Container>
         </>
     );
