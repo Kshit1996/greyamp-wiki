@@ -8,17 +8,47 @@ export default class Login extends React.Component {
     super(props)
   }
 
+  insertGapiScript() {
+    const script = document.createElement('script')
+    script.src = 'https://apis.google.com/js/platform.js'
+    script.onload = () => {
+      this.initializeGoogleSignIn()
+    }
+    document.body.appendChild(script)
+  }
+
+  initializeGoogleSignIn() {
+    window.gapi.load('auth2', () => {
+      // eslint-disable-next-line no-undef
+      this.auth2 = gapi.auth2.init({
+        client_id: '600276182087-pr5eu2cp57t6k2ag60g7cgld0ajkkt7t.apps.googleusercontent.com',
+      })
+      console.log('API inited')
+
+      window.gapi.load('signin2', () => {
+        const params = {
+          onsuccess: () => {
+            console.log('User has finished signing in')
+          }
+        }
+        window.gapi.signin2.render('loginButton', params)
+      })
+    })
+  }
+
+  componentDidMount() {
+    this.insertGapiScript();
+  }
+
   render() {
     return (
         <Row>
-          <Col>
-            <header className="App-header">
-              <img src={logo} className="App-logo" alt="logo" width={'100'}
-                   height={'100'}/>
+          <Col md={{span: 4, offset: 4}} className={'login'}>
+            <img src={logo} className="App-logo" alt="logo" width={'100'}
+                 height={'100'}/>
 
-              <p>You are not signed in. Click here to sign in.</p>
-              <Button id="loginButton">Login with Google</Button>
-            </header>
+            <p>You are not signed in. Click here to sign in.</p>
+            <a id="loginButton">Login with Google</a>
           </Col>
         </Row>
     )
