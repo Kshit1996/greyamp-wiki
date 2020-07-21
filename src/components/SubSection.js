@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './SubSection.css';
-import {Button, Collapse, ListGroup, Card} from "react-bootstrap";
+import {ListGroup, Card} from "react-bootstrap";
 import Accordion from 'react-bootstrap/Accordion'
 import {CaretRightFill} from "react-bootstrap-icons";
 
@@ -15,7 +15,7 @@ export default function SubSection(props) {
                   key={subtopic[0]}
                   onClick={() => props.onClick(props.chapter, subtopic[0])}><a
                   href={subtopic[1]}
-                  target="_blank">{subtopic[0]}</a></ListGroup.Item>
+                  target="_blank" rel={"noopener noreferrer"}>{subtopic[0]}</a></ListGroup.Item>
           )}
         </ListGroup>
     )

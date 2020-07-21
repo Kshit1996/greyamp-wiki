@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './BodyContainer.css';
-import ListOfContents from "./ListOfContents";
+import ListOfContents from "../components/ListOfContents";
 import Content from "../components/Content";
 import {Col, Row} from "react-bootstrap";
 
