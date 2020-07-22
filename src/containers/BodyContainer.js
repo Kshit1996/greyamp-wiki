@@ -36,7 +36,7 @@ export default function BodyContainer(props) {
   const peopleAndCompetencies = [
     ["Mentoring", ""],
     ["Academy",
-      "https://drive.google.com/embeddedfolderview?id=1hMh75kwWG9JIc2Y5UbSS8vXatHvfxnIF"],
+      "https://drive.google.com/embeddedfolderview?id=17nKldjOsCg6BWlEd0B6-YT3oPkfIh4MK"],
     ["IDP", ""],
     ["Career Path", ""],
     ["360 Feedback and PA", ""],
