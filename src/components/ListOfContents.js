@@ -8,17 +8,20 @@ export default function ListOfContents(props) {
 
   return (
       <div className={"side-navigation-panel"}>
-        <SubSection chapter={"Process & Technology"}
-                    subtopics={props.processAndTechnology}
-                    onClick={onClick}/>
         <SubSection chapter={"Organisation & Governance"}
                     subtopics={props.orgAndGovernance}
+                    onClick={onClick}/>
+        <SubSection chapter={"Process & Technology"}
+                    subtopics={props.processAndTechnology}
                     onClick={onClick}/>
         <SubSection chapter={"People & Competence"}
                     subtopics={props.peopleAndCompetencies}
                     onClick={onClick}/>
         <SubSection chapter={"Culture & Mindset"}
                     subtopics={props.cultureAndMindset}
+                    onClick={onClick}/>
+        <SubSection chapter={"Resources"}
+                    subtopics={props.resources}
                     onClick={onClick}/>
         <SubSection chapter={"Greyamp Digital Offering"}
                     subtopics={props.greyampDigitalOffering}
