@@ -13,7 +13,7 @@ export const Content =props =>{
                         return <ListGroupItem>
                             <a href={doc.link} target={"_blank"} rel="noopener noreferrer">{doc.title}</a>
                         </ListGroupItem>
-                    })};
+                    })}
                 </ListGroup>
             </Fragment>}
         </Row>
