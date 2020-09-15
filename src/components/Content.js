@@ -5,13 +5,13 @@ export const Content =props =>{
     return(
         <Container>
         <Row>
-        {props.activeLinks.length === 0 ?
+        {props.documents.length === 0 ?
                     <h1>Select a chapter and a topic under it to see the
                         resources.</h1> : <Fragment>
-                <ListGroup variant="flush">
-                    {props.activeLinks.map((link)=>{
+                <ListGroup variant={"flush"}>
+                    {props.documents.map((doc)=>{
                         return <ListGroupItem>
-                            <a href={link.link} target={"_blank"} rel="noopener noreferrer">{link.title}</a>
+                            <a href={doc.link} target={"_blank"} rel="noopener noreferrer">{doc.title}</a>
                         </ListGroupItem>
                     })};
                 </ListGroup>
