@@ -10,7 +10,7 @@ export default function BodyContainer() {
     const [documents, setDocuments] = useState([]);
 
     const onClick = (selectedChapter, subtopic) => {
-        chapters.forEachs(chapter => {
+        chapters.forEach(chapter => {
                 if (chapter.title === selectedChapter) {
                     const documentLinks = chapter.documents.filter(individualSubtopic => individualSubtopic.subTopic === subtopic)[0]?.documents;
                     documentLinks ? setDocuments(documentLinks) : setDocuments([]);
