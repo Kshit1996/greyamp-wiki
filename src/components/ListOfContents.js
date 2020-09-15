@@ -1,34 +1,20 @@
 import React from 'react';
 import './ListOfContents.css';
 import SubSection from "../components/SubSection";
+import {chapters} from "../utils/Chapters";
 
 export default function ListOfContents(props) {
 
-  const onClick=props.onClick;
+    const onClick = props.onClick;
 
-  return (
-      <div className={"side-navigation-panel"}>
-        <SubSection chapter={"Organisation & Governance"}
-                    subtopics={props.orgAndGovernance}
-                    onClick={onClick}/>
-        <SubSection chapter={"Process & Technology"}
-                    subtopics={props.processAndTechnology}
-                    onClick={onClick}/>
-        <SubSection chapter={"People & Competence"}
-                    subtopics={props.peopleAndCompetencies}
-                    onClick={onClick}/>
-        <SubSection chapter={"Culture & Mindset"}
-                    subtopics={props.cultureAndMindset}
-                    onClick={onClick}/>
-        <SubSection chapter={"Resources"}
-                    subtopics={props.resources}
-                    onClick={onClick}/>
-        <SubSection chapter={"Greyamp Digital Offering"}
-                    subtopics={props.greyampDigitalOffering}
-                    onClick={onClick}/>
-        <SubSection chapter={"About Greyamp"}
-                    subtopics={props.aboutGreyamp}
-                    onClick={onClick}/>
-      </div>
-  )
+    return (
+        <div className={"side-navigation-panel"}>
+            {chapters.map((chapter,index)  => {
+                return <SubSection key={index}
+                                   chapter={chapter.title}
+                                   subtopics={chapter.subTopics}
+                                   onClick={onClick}/>
+            })}
+        </div>
+    )
 }
