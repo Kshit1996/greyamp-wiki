@@ -16,7 +16,7 @@ export default function BodyContainer() {
                     documentLinks ? setDocuments(documentLinks) : setDocuments([]);
                 }
             }
-        );
+        )
     }
 
     return (
