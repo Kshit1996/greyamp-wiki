@@ -1,10 +1,15 @@
-h1{
-  color: darkgrey;
+h1 {
+    color: darkgrey;
 }
 
-a{
-  font-weight: bold;
-  color: #0062cc;
-  font-size: large;
+h2 {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    color: #0062cc;
+    font-size: large;
 }
 

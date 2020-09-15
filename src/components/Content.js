@@ -9,6 +9,7 @@ export const Content =props =>{
                     <h1>Select a chapter and a topic under it to see the
                         resources.</h1> : <Fragment>
                 <ListGroup variant={"flush"}>
+                    <h2>List of Recourses:</h2>
                     {props.documents.map((doc)=>{
                         return <ListGroupItem>
                             <a href={doc.link} target={"_blank"} rel="noopener noreferrer">{doc.title}</a>
