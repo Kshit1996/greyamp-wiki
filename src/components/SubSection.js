@@ -11,10 +11,10 @@ export default function SubSection(props) {
     return (
         <ListGroup variant="flush">
           {subtopics.map(
-              subtopic => <ListGroup.Item
-                  key={subtopic[0]}
-                  onClick={() => props.onClick(props.chapter, subtopic[0])}>
-                {subtopic[0]}
+              subtopic => <ListGroup.Item action={true}
+                  key={subtopic}
+                  onClick={() => props.onClick(props.chapter, subtopic)}>
+                {subtopic}
               </ListGroup.Item>
           )}
         </ListGroup>

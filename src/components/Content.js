@@ -1,52 +1,25 @@
-import React, {useState} from 'react';
+import React, { Fragment } from 'react';
+import {Container, Row, ListGroup, ListGroupItem} from "react-bootstrap";
 import './Content.css';
-import Iframe from "react-iframe";
-import Spinner from 'react-spinkit';
+export const Content =props =>{
+    return(
+        <Container>
+        <Row>
+        {props.documents.length === 0 ?
+                    <h1>Select a chapter and a topic under it to see the
+                        resources.</h1> : <Fragment>
+                <ListGroup variant={"flush"}>
+                    <h2>List of Recourses:</h2>
+                    {props.documents.map((doc)=>{
+                        return <ListGroupItem>
+                            <a href={doc.link} target={"_blank"} rel="noopener noreferrer">{doc.title}</a>
+                        </ListGroupItem>
+                    })}
+                </ListGroup>
+            </Fragment>}
+        </Row>
+      </Container>
+    );
+};
 
-export default class Content extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = {isLoading: true}
-  }
-
-   hideSpinner =() => {
-    this.setState({
-      isLoading: false
-    });
-  };
-
-   showSpinner = ()=>  {
-    this.setState({
-      isLoading: true
-    });
-  };
-
-  render() {
-    const {activeLink} = this.props
-    const {isLoading} = this.state
-    return (
-        <>
-          {activeLink == "" ?
-              <h1>Select a chapter and a topic under it to see the
-                resources.</h1> : this.showSpinner}
-          {isLoading ?
-              <Spinner
-                  className="loading text-center"
-                  name="three-bounce"
-                  color="#282c34"
-                  fadeIn="none"
-              /> : null}
-
-          <Iframe
-              id={"drive-link"}
-              url={this.props.activeLink}
-              width={'100%'}
-              height={'100%'}
-              frameBorder={0}
-              onLoad={this.hideSpinner}
-          />
-        </>
-    )
-  }
-}
+export default Content;

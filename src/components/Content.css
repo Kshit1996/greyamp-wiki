@@ -1,12 +1,15 @@
-h1{
-  color: darkgrey;
-  text-align: center;
+h1 {
+    color: darkgrey;
 }
 
-sk-spinner{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+h2 {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+a {
+    font-weight: bold;
+    color: #0062cc;
+    font-size: large;
 }
 
