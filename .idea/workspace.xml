@@ -21,12 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8fe96fb-ce33-485b-b544-7e32ed2a383e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListOfContents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfContents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BodyContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BodyContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Chapters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Topics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/SubTopics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/SubTopics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Documents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Documents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +113,7 @@
       <workItem from="1599763686471" duration="3172000" />
       <workItem from="1600064159230" duration="9429000" />
       <workItem from="1600248504993" duration="705000" />
-      <workItem from="1600522602809" duration="832000" />
+      <workItem from="1600522602809" duration="4594000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored the content to have only links &amp; to a functional component.">
       <created>1600142649719</created>
@@ -190,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600157360885</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="renamed the file to topics">
+      <created>1600523634110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600523634110</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +221,8 @@
     <MESSAGE value="Removed the extra cha" />
     <MESSAGE value="Added header for list of contents." />
     <MESSAGE value="Added css for subsection title and onSelect" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added css for subsection title and onSelect" />
+    <MESSAGE value="renamed the file to topics" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed the file to topics" />
   </component>
   <component name="WindowStateProjectService">
     <state x="581" y="327" key="#ESLint" timestamp="1599765967577">
