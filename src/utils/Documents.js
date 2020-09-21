@@ -60,7 +60,7 @@ export const peopleAndCompetencies = [
         subTopic: 'Identifying Competencies for the Roles', documents: []
     },
     {
-        subTopic: 'Competency Model (current)', documents: [
+        subTopic: 'Competency Model', documents: [
             {
                 title: 'Competency definitions',
                 link: 'https://drive.google.com/file/d/1UbRuiSMeHkv8ZLkX3ivDxOFNY4A0T3lD/view?usp=sharing'
@@ -94,7 +94,7 @@ export const cultureAndMindset = [
         subTopic: 'Digital Mindset (Ownership, Accountability, Openness)', documents: []
     },
     {
-        subTopic: 'Recognition Model (current)', documents: [
+        subTopic: 'Recognition Model', documents: [
             {
                 title: '5th component PAv1.7',
                 link: 'https://drive.google.com/file/d/1xpATj1nUU0r10Oiuf1VDugjrzvXoOorf/view?usp=sharing'
@@ -153,10 +153,18 @@ export const research = [
 ];
 export const processAndTech = [
     {
-        subTopic: 'Epic Standardization', documents: [{title: 'Epic Standardization', link: 'https://drive.google.com/file/d/1qhrTHh9M4w1CgzoZpgEJz7-PeeiqNeIQ/view?usp=sharing'}]
+        subTopic: 'Epic Standardization',
+        documents: [{
+            title: 'Epic Standardization',
+            link: 'https://drive.google.com/file/d/1qhrTHh9M4w1CgzoZpgEJz7-PeeiqNeIQ/view?usp=sharing'
+        }]
     },
     {
-        subTopic: 'Delivery Comm Forums', documents: [{title: 'Comm Forums AZ KL_V1.5', link: 'https://drive.google.com/file/d/1k3dsevJH1yp3SoIo8XV28CS8GNCZ-zr1/view?usp=sharing'}]
+        subTopic: 'Delivery Communication Forums',
+        documents: [{
+            title: 'Comm Forums AZ KL_V1.5',
+            link: 'https://drive.google.com/file/d/1k3dsevJH1yp3SoIo8XV28CS8GNCZ-zr1/view?usp=sharing'
+        }]
     },
     {
         subTopic: 'CI & CD', documents: []
@@ -172,14 +180,19 @@ export const processAndTech = [
     },
     {
         subTopic: 'End to End Delivery Process - Cycle Times', documents: [
-            {title: 'Title not sure', link: 'https://app.lucidchart.com/documents/edit/058475e0-46f4-4236-8592-b89e3905b3d0/0_0'}
+            {
+                title: 'Title not sure',
+                link: 'https://app.lucidchart.com/documents/edit/058475e0-46f4-4236-8592-b89e3905b3d0/0_0'
+            }
         ]
         // TODO - find title
     },
     {
         subTopic: 'Jira Setup', documents: [
-            {title: 'Agile JIRA Handbook_V2',
-            link: 'https://drive.google.com/file/d/1sxoP9VfyCPbnRqDIunXI3mAO0swB1Yf0/view?usp=sharing'}
+            {
+                title: 'Agile JIRA Handbook_V2',
+                link: 'https://drive.google.com/file/d/1sxoP9VfyCPbnRqDIunXI3mAO0swB1Yf0/view?usp=sharing'
+            }
         ]
     },
     {
@@ -190,34 +203,44 @@ export const processAndTech = [
     },
     {
         subTopic: 'User Stories', documents: [
-            {title:'User Story Playbook_V2',
-            link: 'https://drive.google.com/file/d/1qm-Is-Fx_5fDkiUJH-HHsdylDECMTv1P/view?usp=sharing'}
+            {
+                title: 'User Story Playbook_V2',
+                link: 'https://drive.google.com/file/d/1qm-Is-Fx_5fDkiUJH-HHsdylDECMTv1P/view?usp=sharing'
+            }
         ]
     },
     {
         subTopic: 'User Story Analysis', documents: [
-            {title: 'Epics Standardisation V2.5 (1)',
-            link: 'https://drive.google.com/file/d/1_lJLFFvcNBA2G1fPW8enJIrLnxRNRcQA/view?usp=sharing'}
+            {
+                title: 'Epics Standardisation V2.5 (1)',
+                link: 'https://drive.google.com/file/d/1_lJLFFvcNBA2G1fPW8enJIrLnxRNRcQA/view?usp=sharing'
+            }
         ]
     },
     {
         subTopic: 'User Story Estimation', documents: [
-            {title: 'AZ KL_Estimation v1.13 (1)',
-                link: 'https://drive.google.com/file/d/1dXEvAiRD9veooKnJrvXgoMEPDcTd62qC/view?usp=sharing'}
+            {
+                title: 'AZ KL_Estimation v1.13 (1)',
+                link: 'https://drive.google.com/file/d/1dXEvAiRD9veooKnJrvXgoMEPDcTd62qC/view?usp=sharing'
+            }
         ]
     },
     {
-        subTopic: 'COB Inception', documents: [{title: 'COB Inception Playbook V1.1',
-        link:'https://drive.google.com/file/d/1VCezqNNbgLk1_QiEmCP30bwjXTaB4zOb/view?usp=sharing'}]
+        subTopic: 'COB Inception', documents: [{
+            title: 'COB Inception Playbook V1.1',
+            link: 'https://drive.google.com/file/d/1VCezqNNbgLk1_QiEmCP30bwjXTaB4zOb/view?usp=sharing'
+        }]
     },
     {
-        subTopic: 'COS Inception', documents: [{title: 'CoS Inception Deck V2.8_Lending',
-        link: 'https://drive.google.com/file/d/1CsPtL9KTAtNamR7CuiLdqu68rA6kfy7c/view?usp=sharing'}]
+        subTopic: 'COS Inception', documents: [{
+            title: 'CoS Inception Deck V2.8_Lending',
+            link: 'https://drive.google.com/file/d/1CsPtL9KTAtNamR7CuiLdqu68rA6kfy7c/view?usp=sharing'
+        }]
     },
 ];
 export const aboutGreyamp = [];
 
 export const greyampDigitalOffering = [];
 
-export const gale=[];
+export const gale = [];
 

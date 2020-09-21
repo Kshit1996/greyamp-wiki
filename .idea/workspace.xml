@@ -22,6 +22,8 @@
     <list default="true" id="f8fe96fb-ce33-485b-b544-7e32ed2a383e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/Documents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Documents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/SubTopics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/SubTopics.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/Topics.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/Topics.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +115,7 @@
       <workItem from="1599763686471" duration="3172000" />
       <workItem from="1600064159230" duration="9429000" />
       <workItem from="1600248504993" duration="705000" />
-      <workItem from="1600522602809" duration="4594000" />
+      <workItem from="1600522602809" duration="5872000" />
     </task>
     <task id="LOCAL-00001" summary="Refactored the content to have only links &amp; to a functional component.">
       <created>1600142649719</created>
@@ -192,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600523634110</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Added document links">
+      <created>1600673321523</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1600673321523</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,12 +231,14 @@
     <MESSAGE value="Added header for list of contents." />
     <MESSAGE value="Added css for subsection title and onSelect" />
     <MESSAGE value="renamed the file to topics" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed the file to topics" />
+    <MESSAGE value="Added document links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added document links" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="581" y="327" key="#ESLint" timestamp="1599765967577">
-      <screen x="0" y="23" width="1440" height="810" />
+    <state x="581" y="338" key="#ESLint" timestamp="1600703287299">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="581" y="338" key="#ESLint/0.0.1440.900@0.0.1440.900" timestamp="1600703287299" />
     <state x="581" y="327" key="#ESLint/0.23.1440.810@0.23.1440.810" timestamp="1599765967577" />
     <state x="457" y="197" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1600154027585">
       <screen x="0" y="0" width="1440" height="900" />
@@ -238,10 +249,10 @@
     </state>
     <state x="221" y="49" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600522809093" />
     <state x="221" y="67" key="SettingsEditor/0.23.1440.810@0.23.1440.810" timestamp="1599764671146" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600522951926">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1600673374480">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600522951926" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1600673374480" />
     <state x="385" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1599764190030">
       <screen x="0" y="23" width="1440" height="810" />
     </state>

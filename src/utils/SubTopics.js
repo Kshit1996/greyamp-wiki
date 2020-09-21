@@ -15,38 +15,49 @@ export const peopleAndCompetenciesSubTopics = [
     "IDP",
     "Career Path",
     "360 Feedback and PA",
-    "Competencies for Roles"
+    "Identifying Competencies for the Roles",
+    "Competency Model",
+    "GA Competencies",
+    "Learning Style Survey"
+
 ]
 
 export const processAndTechnologySubTopics = [
     "Epic Standardization",
     "Delivery Communication Forums",
-    "BV/CV for Strategic and Release Level OKRs",
-    "Tactical OKRs",
-    "CI/CD",
-    "Jira",
-    "Development Tools",
+    "CI & CD",
+    "Tools",
     "End to End Delivery Process",
-    "Project and Release Inception",
-    "SAF",
-    "Squad Level Roles and Responsibilities"
+    "End to End Delivery Process - Cycle Times",
+    "Jira Setup",
+    "Roles and Responsibilities",
+    "User Stories",
+    "User Story Analysis",
+    "User Story Estimation",
+    "COB Inception",
+    "COS Inception"
 ]
 
 export const cultureAndMindsetSubTopics = [
     "Leadership Training",
     "Digital Mindset",
-    "Recognition"
+    "Recognition Model",
+    "Digital Leadership Mindset",
+    "GA Culture Pillars",
+    "Culture Survey",
+    "Mindsets & Behaviours",
+    "Bill of Rights and Responsibilities"
 ]
 
-const resources= [
+const resources = [
     "GA Templates",
     "Decks (AKA Ducks)",
     "Image Library",
 ]
 
-const greyampDigitalOffering = [
-]
+export const greyampDigitalOfferingSubTopics = []
 
-const aboutGreyamp= [
+export const aboutGreyampSubTopics = []
 
-]
+export const researchSubTopics = ["One Pagers (Fintech, InsurTech)", "Digital Banks",
+    "Digital Talent - Report", "Events Calendar", "Weekly Trends : DT"];
