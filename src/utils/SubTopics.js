@@ -15,38 +15,49 @@ export const peopleAndCompetenciesSubTopics = [
     "IDP",
     "Career Path",
     "360 Feedback and PA",
-    "Competencies for Roles"
+    "Identifying Competencies for the Roles",
+    "Competency Model",
+    "GA Competencies",
+    "Learning Style Survey"
+
 ]
 
 export const processAndTechnologySubTopics = [
-    ["Epic Standardization", ""],
-    ["Delivery Communication Forums", ""],
-    ["BV/CV for Strategic and Release Level OKRs", "https://drive.google.com/embeddedfolderview?id=1LRYtewmXrXUA9mRnexPZUHU75oGAVXCJ"],
-    ["Tactical OKRs", ""],
-    ["CI/CD", ""],
-    ["Jira", ""],
-    ["Development Tools", ""],
-    ["End to End Delivery Process", ""],
-    ["Project and Release Inception", "https://drive.google.com/embeddedfolderview?id=1jXaHs4VDyl9tyh91IrIyDhwACBTW5ejw"],
-    ["SAF", ""],
-    ["Squad Level Roles and Responsibilities", ""]
+    "Epic Standardization",
+    "Delivery Communication Forums",
+    "CI & CD",
+    "Tools",
+    "End to End Delivery Process",
+    "End to End Delivery Process - Cycle Times",
+    "Jira Setup",
+    "Roles and Responsibilities",
+    "User Stories",
+    "User Story Analysis",
+    "User Story Estimation",
+    "COB Inception",
+    "COS Inception"
 ]
 
 export const cultureAndMindsetSubTopics = [
-    ["Leadership Training", ""],
-    ["Digital Mindset", ""],
-    ["Recognition", ""]
+    "Leadership Training",
+    "Digital Mindset",
+    "Recognition Model",
+    "Digital Leadership Mindset",
+    "GA Culture Pillars",
+    "Culture Survey",
+    "Mindsets & Behaviours",
+    "Bill of Rights and Responsibilities"
 ]
 
-const resources= [
-    ["GA Templates","https://drive.google.com/embeddedfolderview?id=1CXYGP5TfP4jPkmebw5QpYm80o1g9-Daw"],
-    ["Decks (AKA Ducks)","https://drive.google.com/embeddedfolderview?id=1XJ2Wr3GMLDd7pUGmUPbKrILJdaaKk_qG"],
-    ["Image Library","https://drive.google.com/embeddedfolderview?id=1h0mMQLfK5wZRae9q5uucn_coTCcW2qXF#grid"]
+const resources = [
+    "GA Templates",
+    "Decks (AKA Ducks)",
+    "Image Library",
 ]
 
-const greyampDigitalOffering = [
-]
+export const greyampDigitalOfferingSubTopics = []
 
-const aboutGreyamp= [
+export const aboutGreyampSubTopics = []
 
-]
+export const researchSubTopics = ["One Pagers (Fintech, InsurTech)", "Digital Banks",
+    "Digital Talent - Report", "Events Calendar", "Weekly Trends : DT"];

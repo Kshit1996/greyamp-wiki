@@ -3,14 +3,14 @@ import './BodyContainer.css';
 import ListOfContents from "../components/ListOfContents";
 import Content from "../components/Content";
 import {Col, Row} from "react-bootstrap";
-import {chapters} from "../utils/Chapters";
+import {topics} from "../utils/Topics";
 
 export default function BodyContainer() {
 
     const [documents, setDocuments] = useState([]);
 
     const onClick = (selectedChapter, subtopic) => {
-        chapters.forEach(chapter => {
+        topics.forEach(chapter => {
                 if (chapter.title === selectedChapter) {
                     const documentLinks = chapter.documents.filter(individualSubtopic => individualSubtopic.subTopic === subtopic)[0]?.documents;
                     documentLinks ? setDocuments(documentLinks) : setDocuments([]);
