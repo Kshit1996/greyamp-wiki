@@ -4,9 +4,6 @@ import {Col, Row} from "react-bootstrap";
 import logo from '../assets/GreyampLogo.png'
 
 export default class Login extends React.Component {
-  constructor(props) {
-    super(props)
-  }
 
   insertGapiScript() {
     const script = document.createElement('script')
